@@ -7,7 +7,7 @@ def rollDice(diceAmount,diceType):
         result += random.randint(1,diceType)
     return result
         
-def cauculateAverage(accuracy,diceAmount,diceType):
+def calculateAverage(accuracy,diceAmount,diceType):
     result = 0
     if (int(accuracy) <= 1):
         print("Accuracy Must Be A Valid Interger Above 1")
@@ -22,16 +22,16 @@ def cauculateAverage(accuracy,diceAmount,diceType):
     return result 
 
 def start():
-    userInput = input(">>> Type H For Help. Type S To Start A Caculation. Type R To Roll Some Dice. Type E To Exit: ")
+    userInput = input(">>> Type H For Help. Type S To Start A Calculation. Type R To Roll Some Dice. Type E To Exit: ")
     if userInput.upper() == "H":
-        print("Accuracy: How Many Times The Program Should Loop Over To Get An Average\nDice Amount: How Many Of The Dice Type Selected To Roll Per Loop\nDice Type: The Dice You Want To Caculate The Average For")
+        print("Accuracy: How Many Times The Program Should Loop Over To Get An Average\nDice Amount: How Many Of The Dice Type Selected To Roll Per Loop\nDice Type: The Dice You Want To Calculate The Average For")
         if input(">>> Do You Want To Go Back? Type Y Or N To Proceeed: ").upper() == "Y":
             start()
         else:
             print("Exiting Program")
             exit()
     elif userInput.upper() == "S":
-        print(cauculateAverage(input(">>> Please Give A Accuracy: "),input(">>> Please Give A Amount Of Dice: "), input(">>> Please Give A Dice Type: ")))
+        print(calculateAverage(input(">>> Please Give A Accuracy: "),input(">>> Please Give A Amount Of Dice: "), input(">>> Please Give A Dice Type: ")))
         if input(">>> Do You Want To Restart? Press Y Or N To Proceed: ").upper == "Y":
             start()
         else:
@@ -50,6 +50,6 @@ def start():
     else:
         start()
     
-ctypes.windll.kernel32.SetConsoleTitleW("Average Dice Roll Caculator For DND")
-print(">>> Welcome To Average Dice Roll Caculator For DND. What Would You Like To Do?")   
+ctypes.windll.kernel32.SetConsoleTitleW("Average Dice Roll Calculator For DND")
+print(">>> Welcome To Average Dice Roll Calculator For DND. What Would You Like To Do?")   
 start()

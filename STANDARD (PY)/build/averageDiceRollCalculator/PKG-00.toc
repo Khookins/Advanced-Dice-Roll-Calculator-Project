@@ -1,5 +1,5 @@
 ('C:\\Users\\kai\\Desktop\\DND Average Dice Roller Project\\STANDARD '
- '(PY)\\build\\averageDiceRollCaculator\\averageDiceRollCaculator.pkg',
+ '(PY)\\build\\averageDiceRollCalculator\\averageDiceRollCalculator.pkg',
  {'BINARY': True,
   'DATA': True,
   'EXECUTABLE': True,
@@ -12,27 +12,27 @@
  [('pyi-contents-directory _internal', '', 'OPTION'),
   ('PYZ-00.pyz',
    'C:\\Users\\kai\\Desktop\\DND Average Dice Roller Project\\STANDARD '
-   '(PY)\\build\\averageDiceRollCaculator\\PYZ-00.pyz',
+   '(PY)\\build\\averageDiceRollCalculator\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
    'C:\\Users\\kai\\Desktop\\DND Average Dice Roller Project\\STANDARD '
-   '(PY)\\build\\averageDiceRollCaculator\\localpycs\\struct.pyc',
+   '(PY)\\build\\averageDiceRollCalculator\\localpycs\\struct.pyc',
    'PYMODULE'),
   ('pyimod01_archive',
    'C:\\Users\\kai\\Desktop\\DND Average Dice Roller Project\\STANDARD '
-   '(PY)\\build\\averageDiceRollCaculator\\localpycs\\pyimod01_archive.pyc',
+   '(PY)\\build\\averageDiceRollCalculator\\localpycs\\pyimod01_archive.pyc',
    'PYMODULE'),
   ('pyimod02_importers',
    'C:\\Users\\kai\\Desktop\\DND Average Dice Roller Project\\STANDARD '
-   '(PY)\\build\\averageDiceRollCaculator\\localpycs\\pyimod02_importers.pyc',
+   '(PY)\\build\\averageDiceRollCalculator\\localpycs\\pyimod02_importers.pyc',
    'PYMODULE'),
   ('pyimod03_ctypes',
    'C:\\Users\\kai\\Desktop\\DND Average Dice Roller Project\\STANDARD '
-   '(PY)\\build\\averageDiceRollCaculator\\localpycs\\pyimod03_ctypes.pyc',
+   '(PY)\\build\\averageDiceRollCalculator\\localpycs\\pyimod03_ctypes.pyc',
    'PYMODULE'),
   ('pyimod04_pywin32',
    'C:\\Users\\kai\\Desktop\\DND Average Dice Roller Project\\STANDARD '
-   '(PY)\\build\\averageDiceRollCaculator\\localpycs\\pyimod04_pywin32.pyc',
+   '(PY)\\build\\averageDiceRollCalculator\\localpycs\\pyimod04_pywin32.pyc',
    'PYMODULE'),
   ('pyiboot01_bootstrap',
    'C:\\Users\\kai\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
@@ -40,9 +40,9 @@
   ('pyi_rth_inspect',
    'D:\\WpSystem\\S-1-5-21-4143170993-3845338124-289831326-1001\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
-  ('averageDiceRollCaculator',
+  ('averageDiceRollCalculator',
    'C:\\Users\\kai\\Desktop\\DND Average Dice Roller Project\\STANDARD '
-   '(PY)\\averageDiceRollCaculator.py',
+   '(PY)\\averageDiceRollCalculator.py',
    'PYSOURCE')],
  'python311.dll',
  True,

@@ -6,7 +6,7 @@ local function rollDice(diceAmount, diceType)
     return amount
 end
 
-local function caculateAverage(accuracy, diceAmount, diceType)
+local function calculateAverage(accuracy, diceAmount, diceType)
     local result = 0
     if accuracy >= 1 then
         warn("Accuracy Must Be A Value Above 1")
@@ -18,4 +18,4 @@ local function caculateAverage(accuracy, diceAmount, diceType)
     return result
 end
 
-print(caculateAverage(1000, 100, 2))
+print(calculateAverage(1000, 100, 2))

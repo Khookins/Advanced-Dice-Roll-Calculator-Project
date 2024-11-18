@@ -1,5 +1,5 @@
 ('C:\\Users\\kai\\Desktop\\DND Average Dice Roller Project\\STANDARD '
- '(PY)\\build\\averageDiceRollCaculator\\PYZ-00.pyz',
+ '(PY)\\build\\averageDiceRollCalculator\\PYZ-00.pyz',
  [('_compat_pickle',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\_compat_pickle.py',
